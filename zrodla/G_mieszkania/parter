@@ -1,0 +1,34 @@
+<div class="sep_x">
+    <h3>Wybierz mieszkanie</h3>
+</div>
+
+<div id="wstecz_i_podpis">
+    <a href="oferta_M_G.php?tryb=0" class="button"><< Wstecz</a>
+
+    <div class="opis_rzutu">
+        <h3> PARTER </h3>
+    </div>
+</div>
+
+<div class="pietra">
+    <img class="map" src="img/rzuty_blok/parter_opis.jpg" usemap="#rzut-map">
+
+    <map class="map" name="rzut-map">
+        <area target="_self" alt="1" title="1" href="oferta_M_G.php?tryb=2&amp;mieszkanie=1" coords="583,883,700,883,700,942,835,942,840,386,583,386" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+        <area target="_self" alt="6" title="6" href="oferta_M_G.php?tryb=2&amp;mieszkanie=6" coords="844,942,974,942,974,883,1097,883,1097,386,844,386" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+        <area target="_self" alt="7" title="7" href="oferta_M_G.php?tryb=2&amp;mieszkanie=7" coords="1206,883,1400,883,1404,386,1210,386" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+        <area target="_self" alt="12" title="12" href="oferta_M_G.php?tryb=2&amp;mieszkanie=12" coords="1408,883,1606,883,1606,390,1413,386" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+        <area target="_self" alt="13" title="13" href="oferta_M_G.php?tryb=2&amp;mieszkanie=13" coords="1716,883,1834,883,1834,942,1969,942,1973,390,1716,386" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+        <area target="_self" alt="18" title="18" href="oferta_M_G.php?tryb=2&amp;mieszkanie=18" coords="1977,942,2112,942,2112,875,2234,883,2234,394,1977,390" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+        <area target="_self" alt="19" title="19" href="oferta_M_G.php?tryb=2&amp;mieszkanie=19" coords="2483,538,2731,538,2723,479,2786,479,2786,310,2727,310,2727,209,2479,209" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+        <area target="_self" alt="20" title="20" href="oferta_M_G.php?tryb=2&amp;mieszkanie=20" coords="2344,538,2693,542,2685,592,2752,592,2748,816,2693,816,2693,883,2344,883" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+    </map>
+</div>

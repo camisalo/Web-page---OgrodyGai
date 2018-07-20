@@ -1,0 +1,37 @@
+
+<div class="sep_x">
+    <h3>Wybierz mieszkanie</h3>
+</div>
+
+<div id="wstecz_i_podpis">
+    <a href="oferta_M_G.php?tryb=0" class="button"><< Wstecz</a>
+
+    <div class="opis_rzutu">
+        <h3> PIĘTRO I </h3>
+    </div>
+</div>
+
+<div class="pietra">
+    <img class="map" src="img/rzuty_blok/pietro_1_opis.jpg" usemap="#rzut1-map">
+
+    <map class="map" name="rzut1-map">
+        <area target="_self" alt="2" title="2" href="oferta_M_G.php?tryb=2&amp;rzut=1&amp;mieszkanie=2" coords="246,247,468,246,468,643,585,646,585,930,246,932" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+        <area target="_self" alt="3" title="3" href="oferta_M_G.php?tryb=2&amp;rzut=1&amp;mieszkanie=3" coords="584,390,835,390,835,944,699,944,699,880,584,880" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+        <area target="_self" alt="8" title="8" href="oferta_M_G.php?tryb=2&amp;rzut=1&amp;mieszkanie=8" coords="835,390,1092,393,1092,883,979,883,979,944,831,944" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+        <area target="_self" alt="9" title="9" href="oferta_M_G.php?tryb=2&amp;rzut=1&amp;mieszkanie=9" coords="1092,645,1208,648,1211,394,1404,390,1404,883,1214,880,1214,915,1092,915" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+        <area target="_self" alt="14" title="14" href="oferta_M_G.php?tryb=2&amp;rzut=1&amp;mieszkanie=14" coords="1406,388,1602,388,1602,640,1716,645,1725,917,1594,916,1594,883,1409,883" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+        <area target="_self" alt="15" title="15" href="oferta_M_G.php?tryb=2&amp;rzut=1&amp;mieszkanie=15" coords="1717,390,1969,390,1974,943,1826,943,1826,884,1721,880" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+        <area target="_self" alt="21" title="21" href="oferta_M_G.php?tryb=2&amp;rzut=1&amp;mieszkanie=21" coords="1972,390,1972,943,2111,945,2111,884,2225,882,2225,386" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+        <area target="_self" alt="22" title="22" href="oferta_M_G.php?tryb=2&amp;rzut=1&amp;mieszkanie=22" coords="2343,207,2722,207,2726,309,2781,309,2781,482,2722,482,2722,545,2343,545" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+        <area target="_self" alt="23" title="23" href="oferta_M_G.php?tryb=2&amp;rzut=1&amp;mieszkanie=23" coords="2343,541,2684,541,2688,595,2747,595,2747,819,2688,819,2688,882,2482,882,2482,907,2221,907,2221,650,2343,650" shape="poly"
+        data-maphilight='{"stroke":false,"fillColor":"42f4b9","fillOpacity":0.6}'>
+    </map>
+</div>

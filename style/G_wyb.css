@@ -1,0 +1,39 @@
+.kontener_na_rzuty {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+}
+
+div.pietra {
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+    text-align: center;
+
+}
+
+div.pietra img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+/* karteczka koło przycisku wstecz */
+
+.opis_rzutu {
+    display: block;
+    float: right;
+    margin-bottom: 30px;
+    padding-top: 7px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    background-color: #ffffff;
+    width: 80%;
+}
+
+.opis_rzutu h3 {
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+}

@@ -1,0 +1,319 @@
+/* ---------- lista mieszka ---------- */
+
+.div-mieszkania {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.tabela_mieszkan {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabela_mieszkan td, .tabela_mieszkan th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    
+}
+
+.tabela_mieszkan tr:nth-child(even) {background-color: #f2f2f2;}
+
+.tabela_mieszkan tr:hover {background-color: rgba(105, 105, 105, 0.479);}
+
+.tabela_mieszkan th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #292c2f;
+    color: white;
+}
+
+.obrazek {
+    width: auto;
+    height: 60px;
+}
+
+.sprzedane {
+    color: rgb(155, 24, 24);
+    font-weight: bold;
+}
+.rezerwacja {
+    color: rgb(199, 184, 23);
+    font-weight: bold;
+}
+.dostepne {
+    color: rgb(11, 117, 11);
+    font-weight: bold;
+}
+
+
+/* ----- formularz filtry mieszkan ---- */
+
+.filtry-div {
+    float: left;
+    display: block;
+    background-color: rgb(235, 235, 235);
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.filtr-title {
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(201, 201, 201);
+}
+
+.filtr-L {
+    display: block;
+    float: left;
+    width: 35%;
+}
+
+.filtr-C {
+    display: block;
+    float: left;
+    width: 35%;
+}
+
+.filtr-R {
+    display: block;
+    float: left;
+    width: 20%;
+}
+
+.filtr {
+    font-size: 15px;
+    width: 50%;
+}
+
+.filtr-s {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+}
+ 
+
+.filtr-button {
+    background-color: #292c2f;
+    border: none;
+    color: white;
+    padding: 30px 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.filtr-button:hover {
+    border: 2px solid #4CAF50;
+    background-color: rgb(4, 148, 14);
+    color: white;
+}
+
+/* ---------- FORMULARZ Z   OBRAZKAMI ---------- */
+
+.formularz {
+    display: block;
+    height: 670px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.f_rzut {
+    float: left;
+    display: block;
+    width: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.f_rzut img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 700px;
+}
+
+.f_form {
+    float: left;
+    display: block;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    width: 40%;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+.f_n_pola {
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #292c2f;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.komunikat_div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(138, 34, 34);
+}
+
+
+/* przycisk */
+
+
+.button:hover {
+    border: 2px solid #4CAF50;
+    background-color: rgb(4, 148, 14);
+    color: white;
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+/* obrazek opadajacy w tabelce */
+
+.dropdown_o {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_o-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown_o:hover .dropdown_o-content {
+    display: block;
+}
+
+
+/*
+SEPARATOR
+*/
+
+.sep_x {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    background-color: #292c2f;
+}
+
+.sep_x h3 {
+    text-align: center;
+    font-size: 60px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/*
+ROZMIAR EKRANU
+*/
+
+@media screen and (max-width:800px) {
+    
+    .f_form {
+        float: none;
+        display: block;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 3%;
+        width: 94%;
+    }
+
+    .f_rzut {
+        float: none;
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 3%;
+    }
+
+    .sep_x h3 {
+        font-size: 30px;
+    }
+
+    .div-mieszkania {
+        overflow-x:scroll;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+}   
+
+
+
+@media screen and (min-width:800px) {
+	.tabela_mieszkan {
+		width:100%;
+		table-layout: fixed;
+	}
+}

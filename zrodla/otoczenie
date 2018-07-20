@@ -1,0 +1,84 @@
+    <div class="kafelek_otoczenie">
+        <div class="otoczenie_zdjecie">
+            <span class="helper"></span>
+            <img src="img/otoczenie/tramwaj.png" alt="tramwaj"/>
+        </div>
+        <div class="opis_otoczenie">
+            <h3>20 minut do centrum Krakowa</h3>
+            <div>
+                <ul>
+                    <li>Tramwaj </li>
+                    <li>Komunikacja miejska</li>
+                    <li>Rowery</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="kafelek_otoczenie">
+        <div class="otoczenie_zdjecie">
+            <span class="helper"></span>
+            <img src="img/otoczenie/tereny_zielone.jpg" alt="tereny_zielone"/>
+        </div>
+        <div class="opis_otoczenie">
+            <h3>Tereny zielone</h3>
+            <div>
+                <ul>
+                    <li>Zakrzówek</li>
+                    <li>Stadnina koni</li>
+                    <li>Trasy spacerowe/rowerowe</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="kafelek_otoczenie">
+        <div class="otoczenie_zdjecie">
+            <span class="helper"></span>
+            <img src="img/otoczenie/rekreacja.jpg" alt="rekreacja"/>
+        </div>
+        <div class="opis_otoczenie">
+            <h3>Rekreacja</h3>
+            <div>
+                <ul>
+                    <li>Ośrodki sportowo-rekreacyjnezówek</li>
+                    <li>Ścieżki rowerowe</li>
+                    <li>Place zabaw</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="kafelek_otoczenie">
+        <div class="otoczenie_zdjecie">
+            <span class="helper"></span>
+            <img src="img/otoczenie/infrastruktura.jpg" alt="infrastruktura"/>
+        </div>
+        <div class="opis_otoczenie">
+            <h3>Infrastruktura</h3>
+            <div>
+                <ul>
+                    <li>Centra handlowe</li>
+                    <li>Sklepy</li>
+                    <li>Apteki i przychodnie</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="kafelek_otoczenie">
+        <div class="otoczenie_zdjecie">
+            <span class="helper"></span>
+            <img src="img/otoczenie/edukacja.jpg" alt="edukacja"/>
+        </div>
+        <div class="opis_otoczenie">
+            <h3>Edukacja</h3>
+            <div>
+                <ul>
+                    <li>Przedszkola</li>
+                    <li>Szkoły</li>
+                    <li>Uczelnie Wyższe</li>
+                </ul>
+            </div>
+        </div>
+    </div>

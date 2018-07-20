@@ -1,0 +1,472 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgba(255, 255, 255, 0.904);
+    font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+    width:auto;
+ }
+
+ p {
+    text-align: justify;
+}
+
+/* ---------- STYLE DO MENU ----------*/
+
+header {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    min-height: 70px;
+    position: relative; /* ZMIANA na ( sticky ) powoduje przesówanie się menu razem z użytkownikiem */
+    top: 0;
+    background-color: #292c2f;
+}
+
+/* HEADER */
+
+header h1 {
+    margin-top: 4px;
+    margin-left: 3%;
+    float: left;
+    width: 10%;
+    font: normal 40px 'Cookie', cursive;
+    padding: 10px;
+    text-align: left;
+}
+
+header h1 b a {
+    color: rgb(255, 255, 255);
+    background-color: #292c2f;
+    text-decoration: none;
+}
+
+header h1 b a span {
+    color: #1f8112;
+}
+
+header ul {
+    float: right;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Arial';
+    font-size: medium; 
+    list-style-type: none;
+    padding: 15px;
+    overflow: hidden;
+}
+
+header ul li {
+    float: left;
+}
+
+header ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;    
+}
+
+header ul li a:hover {
+    color: #439438;
+}
+
+header ul li a.active {
+    color: #1f8112;
+}
+
+/* ---------- MENU WYSÓWANE ---------- */
+
+li a, .dropbtn {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    color: #439438;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #292c2f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: line-through;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {color: #439438}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/* ---------- content ---------- */
+
+div.content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.content iframe {
+    width: 100%;
+}
+
+/* dodatkowe odnosniki */
+.image_M {
+    position: relative;
+    text-align: center;
+    color: #292c2f;
+}
+
+.centered {
+    position: absolute;
+    font: normal 40px 'Cookie', cursive;
+    top: 90px;
+    left: 350px;
+    font-size: 38px;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    border: 0px solid #292c2f;
+}
+
+
+div.image_M img{
+    width: 100%;
+    text-align: center;
+}
+
+
+div.kafelek {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    background-color: #ffffff;
+}
+
+div.kafelek_mapa {
+    display: block;
+    height: 800px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    background-color: #ffffff;
+}
+
+
+
+.zdjecie {
+    float: left;
+    width: 44%;
+    height: 600px;      /* equals max image height */
+    white-space: nowrap;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.zdjecie img {
+    background: rgb(255, 255, 255);
+    vertical-align: middle;
+    max-height: 600px;
+    max-width: 100%;
+}
+
+.opis {
+    display: inline-block;
+    margin: 3%;
+    max-width: 44%;
+}
+
+.opis h3 {
+    font-size: 40px;
+    align-content: center;
+}
+
+.opis ul li {
+    text-align: justify;
+}
+
+.opis div {
+    padding-top: 20px
+}
+
+.opis div p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 40px;
+    margin-top: 0;
+    text-align: justify;
+}
+
+.opis div ul {
+    margin-left: 50px;
+}
+
+/* SPARATOR */
+
+div.kafelek_separator {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    background-color: #292c2f;
+}
+
+div.kafelek_separator h3 {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 60px;
+    padding: 20px;
+}
+
+div.kafelek_separator_g {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    background-color: #292c2f;
+    color: #1f8112;
+}
+
+div.kafelek_separator_g h3 {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 80px;
+    padding: 20px;
+}
+
+h3 font {
+    font-size: 100px;
+}
+
+/* STYLE DO OTOCZENIA */
+
+div.otoczenie {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+div.kafelek_otoczenie {
+    display: inline-block;
+    height: 150px;
+    margin: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    background-color: #ffffff;
+    width: 47%;
+}
+
+div.otoczenie_zdjecie {
+    float: left;
+    width: 30%;
+    height: 130px;      /* equals max image height */
+    white-space: nowrap;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+div.otoczenie_zdjecie img {
+    background: rgb(255, 255, 255);
+    vertical-align: middle;
+    max-height: 130px;
+}
+
+div.opis_otoczenie {
+    float: left;
+    margin: 3%;
+    max-width: 64%;
+}
+
+div.opis_otoczenie div ul{
+    float: left;
+    padding-left: 30px;
+}
+
+/* LOKALIZACJA */
+
+div.otoczenie_zdjecie iframe {
+    background: rgb(255, 255, 255);
+    vertical-align: middle;
+}
+
+div.mapa {
+    display: block;
+    float: left;
+    width: 40%;
+    margin: 3%;
+}
+
+
+/* POLE TEKSTOWE NA CAŁEJ SZEROKOSCI */
+
+.pole_tekstowe {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pole_tekstowe p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+/*
+ STYLE DO ZDJEC 360
+*/
+
+.kontener-360 {
+    display: block;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.photo-360 {
+    display: inline-block;
+    padding: 5px;
+    width: 910px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+/*
+ DOPASOWANIE DO SZEROKOŚCI EKRANU 
+*/
+
+@media screen and (max-width:800px) {
+    header {
+        display: block;
+        position: static;
+    }
+
+    header ul, header ul li, header h1 {
+        width: 100%;
+        margin: 0%;
+        float: left;
+        text-align: center;
+    }
+
+    header ul li {
+        border: solid;
+        border-width: 0 0 1px 0;
+        background-color: #292c2f;
+    }
+    
+    div.kafelek_otoczenie {
+        width: 100%;
+    }
+    
+}   
+
+
+.opis-garaz {
+    width: 94%;
+    display: block;
+    margin: 3%;
+    text-align: center;
+}
+
+.opis-garaz div {
+    padding-top: 20px
+}
+
+.opis-garaz div p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    text-align: center;
+}
+
+
+
+.zdjecie-garaz {
+    display: block;
+    width: 100%;
+    height: auto;     /* equals max image height */
+    white-space: nowrap;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.zdjecie-garaz img {
+    background: rgb(255, 255, 255);
+    max-height: 600px;
+    max-width: 100%;
+}
+
+.mail-potwierdzenie {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 500px;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.mail-potwierdzenie p {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+}

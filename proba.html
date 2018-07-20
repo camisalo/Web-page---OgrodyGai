@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Osiedle</title>
+      <meta http-equiv="Content-Type" content="application/xhtml+xml;
+charset=UTF-8"/>
+      
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style/sprzedaz.css"/>
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <link rel="stylesheet" type="text/css" href="style/inwestor.css"/>
+
+
+    <script src="JS/Start.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=1,Transition=7)" />
+
+    <script type="text/javascript" src="JS/formularz.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+</head>
+<body onload="Start();">
+
+
+<form action="./PHP/addUser.php" method="POST">
+    <span class="f_n_pola">Nazwa użytkownika:</span></br> <input class="f_pole" type="text" name="username"/><br>
+    <span class="f_n_pola">Hasło:</span></br> <input class="f_pole" type="text" name="password"/><br>
+    <span class="f_n_pola">Imie:</span></br> <input class="f_pole" type="text" name="firstname"/><br>
+    <span class="f_n_pola">Nazwisko:</span></br> <input class="f_pole" type="text" name="lastname"/><br>
+    <span class="f_n_pola">e-mail:</span></br> <input class="f_pole" type="text" name="email"/><br>
+    <input type="checkbox" name="admin" value="TAK"> Admin<br>
+    <input id="przycisk_f" class="button" type="submit">
+</form>
+
+
+
+
+</body>
+</html>
